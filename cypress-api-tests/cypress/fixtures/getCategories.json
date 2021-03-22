@@ -1,0 +1,186 @@
+{
+    "categories": [
+        {
+            "id": "5a",
+            "name": "Dom i Ogród",
+            "parent": null,
+            "leaf": false,
+            "options": {
+                "variantsByColorPatternAllowed": true,
+                "advertisement": false,
+                "advertisementPriceOptional": false,
+                "offersWithProductPublicationEnabled": false,
+                "productCreationEnabled": false,
+                "customParametersEnabled": true
+            }
+        },
+        {
+            "id": "11763",
+            "name": "Dziecko",
+            "parent": null,
+            "leaf": false,
+            "options": {
+                "variantsByColorPatternAllowed": true,
+                "advertisement": false,
+                "advertisementPriceOptional": false,
+                "offersWithProductPublicationEnabled": false,
+                "productCreationEnabled": false,
+                "customParametersEnabled": true
+            }
+        },
+        {
+            "id": "42540aec-367a-4e5e-b411-17c09b08e41f",
+            "name": "Elektronika",
+            "parent": null,
+            "leaf": false,
+            "options": {
+                "variantsByColorPatternAllowed": true,
+                "advertisement": false,
+                "advertisementPriceOptional": false,
+                "offersWithProductPublicationEnabled": true,
+                "productCreationEnabled": true,
+                "customParametersEnabled": true
+            }
+        },
+        {
+            "id": "4bd97d96-f0ff-46cb-a52c-2992bd972bb1",
+            "name": "Firma i usługi",
+            "parent": null,
+            "leaf": false,
+            "options": {
+                "variantsByColorPatternAllowed": true,
+                "advertisement": false,
+                "advertisementPriceOptional": false,
+                "offersWithProductPublicationEnabled": false,
+                "productCreationEnabled": false,
+                "customParametersEnabled": true
+            }
+        },
+        {
+            "id": "a408e75a-cede-4587-8526-54e9be600d9f",
+            "name": "Kolekcje i sztuka",
+            "parent": null,
+            "leaf": false,
+            "options": {
+                "variantsByColorPatternAllowed": true,
+                "advertisement": false,
+                "advertisementPriceOptional": false,
+                "offersWithProductPublicationEnabled": false,
+                "productCreationEnabled": false,
+                "customParametersEnabled": false
+            }
+        },
+        {
+            "id": "38d588fd-7e9c-4c42-a4ae-6831775eca45",
+            "name": "Kultura i rozrywka",
+            "parent": null,
+            "leaf": false,
+            "options": {
+                "variantsByColorPatternAllowed": true,
+                "advertisement": false,
+                "advertisementPriceOptional": false,
+                "offersWithProductPublicationEnabled": false,
+                "productCreationEnabled": false,
+                "customParametersEnabled": true
+            }
+        },
+        {
+            "id": "ea5b98dd-4b6f-4bd0-8c80-22c2629132d0",
+            "name": "Moda",
+            "parent": null,
+            "leaf": false,
+            "options": {
+                "variantsByColorPatternAllowed": true,
+                "advertisement": false,
+                "advertisementPriceOptional": false,
+                "offersWithProductPublicationEnabled": false,
+                "productCreationEnabled": false,
+                "customParametersEnabled": true
+            }
+        },
+        {
+            "id": "3",
+            "name": "Motoryzacja",
+            "parent": null,
+            "leaf": false,
+            "options": {
+                "variantsByColorPatternAllowed": true,
+                "advertisement": false,
+                "advertisementPriceOptional": false,
+                "offersWithProductPublicationEnabled": false,
+                "productCreationEnabled": false,
+                "customParametersEnabled": true
+            }
+        },
+        {
+            "id": "20782",
+            "name": "Nieruchomości",
+            "parent": null,
+            "leaf": false,
+            "options": {
+                "variantsByColorPatternAllowed": false,
+                "advertisement": true,
+                "advertisementPriceOptional": false,
+                "offersWithProductPublicationEnabled": false,
+                "productCreationEnabled": false,
+                "customParametersEnabled": false
+            }
+        },
+        {
+            "id": "3919",
+            "name": "Sport i turystyka",
+            "parent": null,
+            "leaf": false,
+            "options": {
+                "variantsByColorPatternAllowed": true,
+                "advertisement": false,
+                "advertisementPriceOptional": false,
+                "offersWithProductPublicationEnabled": false,
+                "productCreationEnabled": false,
+                "customParametersEnabled": true
+            }
+        },
+        {
+            "id": "258832",
+            "name": "Supermarket",
+            "parent": null,
+            "leaf": false,
+            "options": {
+                "variantsByColorPatternAllowed": true,
+                "advertisement": false,
+                "advertisementPriceOptional": false,
+                "offersWithProductPublicationEnabled": false,
+                "productCreationEnabled": false,
+                "customParametersEnabled": true
+            }
+        },
+        {
+            "id": "1429",
+            "name": "Uroda",
+            "parent": null,
+            "leaf": false,
+            "options": {
+                "variantsByColorPatternAllowed": true,
+                "advertisement": false,
+                "advertisementPriceOptional": false,
+                "offersWithProductPublicationEnabled": false,
+                "productCreationEnabled": false,
+                "customParametersEnabled": true
+            }
+        },
+        {
+            "id": "121882",
+            "name": "Zdrowie",
+            "parent": null,
+            "leaf": false,
+            "options": {
+                "variantsByColorPatternAllowed": true,
+                "advertisement": false,
+                "advertisementPriceOptional": false,
+                "offersWithProductPublicationEnabled": false,
+                "productCreationEnabled": false,
+                "customParametersEnabled": true
+            }
+        }
+    ]
+}

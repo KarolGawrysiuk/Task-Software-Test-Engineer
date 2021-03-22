@@ -1,0 +1,173 @@
+{
+    "parameters": [
+        {
+            "id": "11323",
+            "name": "Stan",
+            "type": "dictionary",
+            "required": true,
+            "requiredForProduct": false,
+            "unit": null,
+            "options": {
+                "variantsAllowed": false,
+                "variantsEqual": true,
+                "ambiguousValueId": null,
+                "dependsOnParameterId": null,
+                "requiredDependsOnValueIds": null,
+                "displayDependsOnValueIds": null,
+                "describesProduct": false,
+                "customValuesEnabled": false
+            },
+            "dictionary": [
+                {
+                    "id": "11323_1",
+                    "value": "Nowy",
+                    "dependsOnValueIds": []
+                },
+                {
+                    "id": "11323_2",
+                    "value": "Używany",
+                    "dependsOnValueIds": []
+                },
+                {
+                    "id": "11323_238066",
+                    "value": "Po zwrocie",
+                    "dependsOnValueIds": []
+                },
+                {
+                    "id": "11323_238058",
+                    "value": "Powystawowy",
+                    "dependsOnValueIds": []
+                },
+                {
+                    "id": "11323_238062",
+                    "value": "Uszkodzony",
+                    "dependsOnValueIds": []
+                },
+                {
+                    "id": "11323_246534",
+                    "value": "Odnowiony przez producenta",
+                    "dependsOnValueIds": []
+                }
+            ],
+            "restrictions": {
+                "multipleChoices": false
+            }
+        },
+        {
+            "id": "237190",
+            "name": "Marka",
+            "type": "string",
+            "required": true,
+            "requiredForProduct": true,
+            "unit": null,
+            "options": {
+                "variantsAllowed": false,
+                "variantsEqual": false,
+                "ambiguousValueId": null,
+                "dependsOnParameterId": null,
+                "requiredDependsOnValueIds": null,
+                "displayDependsOnValueIds": null,
+                "describesProduct": true,
+                "customValuesEnabled": false
+            },
+            "restrictions": {
+                "minLength": 1,
+                "maxLength": 100,
+                "allowedNumberOfValues": 1
+            }
+        },
+        {
+            "id": "237206",
+            "name": "Model",
+            "type": "string",
+            "required": true,
+            "requiredForProduct": true,
+            "unit": null,
+            "options": {
+                "variantsAllowed": false,
+                "variantsEqual": false,
+                "ambiguousValueId": null,
+                "dependsOnParameterId": null,
+                "requiredDependsOnValueIds": null,
+                "displayDependsOnValueIds": null,
+                "describesProduct": true,
+                "customValuesEnabled": false
+            },
+            "restrictions": {
+                "minLength": 1,
+                "maxLength": 40,
+                "allowedNumberOfValues": 1
+            }
+        },
+        {
+            "id": "17448",
+            "name": "Waga produktu z opakowaniem jednostkowym",
+            "type": "float",
+            "required": false,
+            "requiredForProduct": false,
+            "unit": "kg",
+            "options": {
+                "variantsAllowed": false,
+                "variantsEqual": false,
+                "ambiguousValueId": null,
+                "dependsOnParameterId": null,
+                "requiredDependsOnValueIds": null,
+                "displayDependsOnValueIds": null,
+                "describesProduct": true,
+                "customValuesEnabled": false
+            },
+            "restrictions": {
+                "min": 0.0,
+                "max": 1000000.0,
+                "range": false,
+                "precision": 3
+            }
+        },
+        {
+            "id": "225693",
+            "name": "EAN",
+            "type": "string",
+            "required": false,
+            "requiredForProduct": false,
+            "unit": null,
+            "options": {
+                "variantsAllowed": false,
+                "variantsEqual": false,
+                "ambiguousValueId": null,
+                "dependsOnParameterId": null,
+                "requiredDependsOnValueIds": null,
+                "displayDependsOnValueIds": null,
+                "describesProduct": true,
+                "customValuesEnabled": false
+            },
+            "restrictions": {
+                "minLength": 8,
+                "maxLength": 14,
+                "allowedNumberOfValues": 1
+            }
+        },
+        {
+            "id": "224017",
+            "name": "Kod producenta",
+            "type": "string",
+            "required": true,
+            "requiredForProduct": true,
+            "unit": null,
+            "options": {
+                "variantsAllowed": false,
+                "variantsEqual": false,
+                "ambiguousValueId": null,
+                "dependsOnParameterId": null,
+                "requiredDependsOnValueIds": null,
+                "displayDependsOnValueIds": null,
+                "describesProduct": true,
+                "customValuesEnabled": false
+            },
+            "restrictions": {
+                "minLength": 2,
+                "maxLength": 50,
+                "allowedNumberOfValues": 1
+            }
+        }
+    ]
+}
