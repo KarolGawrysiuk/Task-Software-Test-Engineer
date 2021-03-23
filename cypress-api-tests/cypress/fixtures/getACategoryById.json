@@ -1,0 +1,16 @@
+{
+    "id": "6",
+    "name": "Kolekcje",
+    "parent": {
+        "id": "a408e75a-cede-4587-8526-54e9be600d9f"
+    },
+    "leaf": false,
+    "options": {
+        "variantsByColorPatternAllowed": true,
+        "advertisement": false,
+        "advertisementPriceOptional": false,
+        "offersWithProductPublicationEnabled": false,
+        "productCreationEnabled": false,
+        "customParametersEnabled": true
+    }
+}

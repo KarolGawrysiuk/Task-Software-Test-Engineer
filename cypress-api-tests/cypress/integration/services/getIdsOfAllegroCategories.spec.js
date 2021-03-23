@@ -6,13 +6,11 @@ describe('API Testing with Cypress', function() {
         .then(function(response){
             expect(response.status).to.eq(200);
             expect(response).to.have.property('body');
+            expect(response).to.have.property('headers');
             expect(response.body).to.not.be.null;
             expect(response.body.categories).to.have.length(13);
             expect(response.body.categories[0].name).equal('Dom i Ogród');
-           // expect(response.body.categories).to.have.all.keys('id', 'name', 'parent', 'leaf', 'options');
-            
-            //expect(response.body).should(getCategories.json);
-            
+         
             expect(response.body.categories[1]).to.have.property('id').to.be.a('string');
             expect(response.body.categories[1]).to.have.property('name').to.be.a('string');
             expect(response.body.categories[1]).to.have.property('parent').to.be.a('null');
@@ -26,10 +24,10 @@ describe('API Testing with Cypress', function() {
             expect(response.body.categories[1].options).to.have.property('customParametersEnabled').to.be.a('boolean');
 
 
-            // cy.fixture('/getCategories.json').then(getCategories => {
-            //     cy.expect(response.body ).to.have.(getCategories);
-            // });
-    
+            cy.fixture('/getCategories.json').then(getCategories => {
+                expect(response.body).to.have.property('categories');
+                expect(response.body.categories).to.deep.equal(getCategories.categories);
+            });
             
         });
 

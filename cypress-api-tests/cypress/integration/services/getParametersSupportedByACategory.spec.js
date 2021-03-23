@@ -5,6 +5,7 @@ describe('API Testing with Cypress', function() {
     .then(function(response){
         expect(response.status).to.eq(200);
         expect(response).to.have.property('body');
+        expect(response).to.have.property('headers');
         expect(response.body).to.not.be.null;
         expect(response.body.parameters).to.have.length(6);
 
@@ -34,7 +35,10 @@ describe('API Testing with Cypress', function() {
         expect(response.body.parameters[0]).to.have.property('restrictions').to.be.a('Object');
             expect(response.body.parameters[0].restrictions).to.have.property('multipleChoices').to.be.a('boolean');
             
-
+            cy.fixture('/getParametersCategory.json').then(getParametersCategories => {
+                expect(response.body).to.have.property('parameters');
+                expect(response.body.parameters).to.deep.equal(getParametersCategories.parameters);
+            });
     });
 
 });
@@ -55,8 +59,6 @@ describe('API Testing with Cypress', function() {
             expect(response.body.errors[0].message).equal("Category '1331231' not found");
             expect(response.body.errors[0].path).equal(null);
             expect(response.body.errors[0].userMessage).equal(null);
-            
-
             
         })
         });

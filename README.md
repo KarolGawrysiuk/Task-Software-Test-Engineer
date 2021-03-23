@@ -2,10 +2,9 @@
 
 
 
-1. cd .\cypress-api-tests\  -- go to directory
-2. npm init -y -- Create npm package 
-3. npm i cypress -- Install cypress if needed
-2. npx cypress open -- run cypress
+1. cd .\cypress-api-tests\  
+2. npm install 
+3. npx cypress open 
 
 Files: 
 integration\services\

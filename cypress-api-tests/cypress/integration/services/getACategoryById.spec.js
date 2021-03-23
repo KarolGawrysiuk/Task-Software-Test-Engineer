@@ -5,6 +5,7 @@ describe('API Testing with Cypress', function() {
     .then(function(response){
         expect(response.status).to.eq(200);
         expect(response).to.have.property('body');
+        expect(response).to.have.property('headers');
         expect(response.body).to.not.be.null
         expect(response.body.name).equal('Kolekcje');
         
@@ -24,6 +25,11 @@ describe('API Testing with Cypress', function() {
         expect(response.body.options).to.have.property('offersWithProductPublicationEnabled').to.be.a('boolean');
         expect(response.body.options).to.have.property('customParametersEnabled').to.be.a('boolean');
 
+
+
+        cy.fixture('/getACategoryById.json').then(getCategories => {
+            expect(response.body).to.deep.equal(getCategories);
+        });
     });
 
 });
